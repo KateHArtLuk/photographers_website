@@ -1,0 +1,41 @@
+.footer {
+	height: 179px;
+	background: #CD9954;
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		padding: 44px 0 44px 0;
+	}
+	&__item-link {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		width: 280px;
+		height: 92px;
+	}
+	&__item-link:nth-child(1) {
+		margin-right: 271px;
+		padding-left: 333px;
+	}
+	&__link {
+		font-family: 'Mitr';
+		font-weight: 275;
+		font-size: 24px;
+		color: #1A1507;
+	}
+	&__link-soc {
+		padding-left: 640px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	&__link-icon {
+		padding: 32px;
+		img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
